@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(80, 78, 78);
+    font-size: 12;
+}
+.main{
+    background-color: #f7f4f4;
+    box-shadow: 0 0 20px;
+}
+
+/* ACCOUNT SECTION */
+.create{
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 1px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
+
+
+/* INPUT SECTION */
+
+.input-group-text {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+}
+.input-group input {
+    height: 45px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #ccc;
+}
+.input-group input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.input-group-append button {
+    background-color: transparent;
+    border: 0px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+.input-group-append button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* .icon {  
+    margin: 2px;
+}
+
+input{
+    border: none;
+}
+
+span{
+    color: rgb(32, 138, 32);
+} */
+
+/* BUTTON SECTION */
+.button {
+    background-color: rgb(81, 151, 81); /* Green */
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  /* MOBILE SECTION */
+  @media(max-width: 480px){
+    .main{
+      width: 100%;
+    }
+    .create {
+        padding: 15px;
+    }
+    /* input{
+        border: none;
+        width: 88%;
+    } */
+
+    .icon {  
+        margin: 0px;
+    }
+
+    /* ::placeholder{
+        margin-left: 20px;
+    } */
+  }
